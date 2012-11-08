@@ -5,9 +5,9 @@ This project is a collection of fun things you can do with CSS
 
 For starters, try this:
 
-Google Maps Page Curl
----------------------
-**At present, this only works on Chrome Canary**
+Page Curl & Dissolve
+--------------------
+**At present, this only works on Chrome Canary!**
 
 First, make sure you have CSS Shaders enabled:
 
@@ -32,6 +32,10 @@ The page should start to curl.
 If you want to get the curl to stop, enter the following:
 
     document.getElementById('map').className = '';
+
+Dissolve:
+
+    document.getElementById('map').className = ' css-dissolve';
 
 Btw, you can do this on any element, on any wesbsite.  Just replace 'map' with whatever element ID you want.
 Or, if you know that jQuery is loaded on the page, you can do the following to turn the page curl on & off:
