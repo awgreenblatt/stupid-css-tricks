@@ -1,4 +1,4 @@
-stupid-chrome-tricks
+stupid-css-tricks
 ====================
 
 This project is a collection of fun things you can do with CSS
@@ -15,9 +15,7 @@ First, make sure you have CSS Shaders enabled:
 * Enable CSS Shaders
 * Restart Canary
 
-Now, navigate to http://maps.google.com
-Open up the Javascript Console (⌘-Option-J)
-Enter the following script:
+Now, navigate to http://maps.google.com, open up the Javascript Console (⌘-Option-J) and enter the following script:
 
     var newScript = document.createElement('script');
     newScript.type = 'text/javascript';
@@ -40,6 +38,6 @@ document.getElementById('map').className = '';
 Btw, you can do this on any element, on any wesbsite.  Just replace 'map' with whatever element ID you want.
 Or, if you know that jQuery is loaded on the page, you can do the following to turn the page curl on & off:
 
-$(<selector>).toggleClass('css-curl');
+    $(<selector>).toggleClass('css-curl');
 
 Are we having fun yet?
