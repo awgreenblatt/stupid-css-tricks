@@ -7,7 +7,7 @@ For starters, try this:
 
 Google Maps Page Curl
 ---------------------
-_At present, this only works on Chrome Canary_
+**At present, this only works on Chrome Canary**
 
 First, make sure you have CSS Shaders enabled:
 
@@ -31,9 +31,7 @@ Now, enter the following:
 The page should start to curl.
 If you want to get the curl to stop, enter the following:
 
-<code>
-document.getElementById('map').className = '';
-</code>
+    document.getElementById('map').className = '';
 
 Btw, you can do this on any element, on any wesbsite.  Just replace 'map' with whatever element ID you want.
 Or, if you know that jQuery is loaded on the page, you can do the following to turn the page curl on & off:
