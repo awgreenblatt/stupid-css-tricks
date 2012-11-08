@@ -19,7 +19,7 @@ Now, navigate to http://maps.google.com, open up the Javascript Console (⌘-Opt
 
     var newScript = document.createElement('script');
     newScript.type = 'text/javascript';
-    newScript.src = 'https://raw.github.com/awgreenblatt/stupid-css-tricks/master/js/css-curl.js';
+    newScript.src = 'https://raw.github.com/awgreenblatt/stupid-css-tricks/master/js/shader-rules.js';
     document.getElementsByTagName("head")[0].appendChild(newScript);
 
 That just inserted some new CSS rules into the document.
